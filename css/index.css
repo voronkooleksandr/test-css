@@ -1,0 +1,16 @@
+div {
+    transition: transform 0.7s easy-in-out;
+    background: white;
+    border: 2px solid #aaa;
+    width: 330px;
+    margin: 20px;
+    padding: 20px;
+    color:indigo;
+    text-align: center;
+
+}
+div:hover {
+    cursor: pointer;
+    transform: scale(2) rotate(180deg);
+    color: green;
+}
